@@ -6,6 +6,12 @@ export const Button = styled.button`
   width: max-content;
 
   font-weight: 700;
-  color: var(--white);
   border-radius: 5px;
+  color: var(--white);
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
 `;

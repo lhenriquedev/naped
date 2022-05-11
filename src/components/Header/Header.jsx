@@ -29,7 +29,7 @@ export const Header = () => {
             </li>
 
             <li>
-              <a className="button">Minha conta</a>
+              <a className="button">Login</a>
             </li>
           </ul>
         </nav>

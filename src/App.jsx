@@ -10,6 +10,7 @@ import { Header } from "./components/Header/Header";
 import { Footer } from "./components/Footer/Footer";
 
 import GlobalStyle from "./styles/globalStyles";
+import { NotFound } from "./pages/NotFound/NotFound";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/movies" element={<Movies />} />
           <Route path="/animes" element={<Animes />} />
           <Route path="/games" element={<Games />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
       <Footer />
